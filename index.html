@@ -1,0 +1,1203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Manga</title>
+<!----------------меняющиеся окна для стилей------------------>
+<link rel="stylesheet"   href="index_videolb/zoombox.css"  type="text/css" media="screen" />
+<script    src="js_index/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script><script>
+	
+function v1()
+{
+	
+	
+d1=document.getElementById("d1")
+d1.innerHTML="<img src=BG/2/text/mecha.png>"
+}
+
+function v2()
+{
+d1=document.getElementById("d1")
+d1.innerHTML=""
+}
+function v3()
+{
+d1=document.getElementById("d2")
+d1.innerHTML="<img src=BG/2/text/boy.png>"
+}
+
+function v4()
+{
+d1=document.getElementById("d2")
+d1.innerHTML=""
+}
+
+function v5()
+{
+d1=document.getElementById("d3")
+d1.innerHTML="<img src=BG/2/text/girl.png>"
+}
+
+function v6()
+{
+d1=document.getElementById("d3")
+d1.innerHTML=""
+}
+function v7()
+{
+d1=document.getElementById("d4")
+d1.innerHTML="<img src=BG/2/text/cyber.png>"
+}
+
+function v8()
+{
+d1=document.getElementById("d4")
+d1.innerHTML=""
+}
+function v9()
+{
+d1=document.getElementById("d5")
+d1.innerHTML="<img src=BG/1/text_asuka.gif>"
+}
+
+function v10()
+{
+d1=document.getElementById("d5")
+d1.innerHTML=""
+}
+</script>
+<!---------------- END меняющиеся окна для стилей END----------------->
+ <!---------nachalo fancybox----->
+  
+<!--	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+      <script src="jQuery/jquery.js"></script>-->
+	
+ 
+	
+    
+  
+
+    
+     <!---------konec fancybox----->
+
+<!--------- links----------->
+<style>
+a:link, a:visited{
+	text-decoration: none;
+	font-size: 30px;
+	color: #000;
+	direction: rtl;
+	font-family: "FbTazpit Light"
+}
+
+a:hover{
+	text-decoration: none;
+	font-size: 30px;
+	font-family:"FbTazpit Light";
+	color: #900
+}
+
+
+</style>
+<!-----------links END-------->
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+	<script>
+function a()
+{
+vid3=window.open("styls/mecha/mecha.html","w3","width=1378,height=828,top=100,left=300")
+	
+	mecha.document.close()	
+	
+	
+}
+function b()
+{
+	vid1=window.open("styls/senen/senen.html","w2","width=1378,height=828,top=100,left=300")
+	
+	senen.document.close()
+}
+
+
+function c()
+{
+	vid4=window.open("styls/sedze/sedze.html","w4","width=1378,height=828,top=100,left=300")
+	
+	sedze.document.close()
+}
+function d()
+{
+	vid2=window.open("styls/cyberpunk/cyberpunk.html","w1","width=1378,height=828,top=100,left=300")
+	
+	cyber.document.close()
+}
+function a1()
+{
+	book1=window.open("BG/page4/book1/book1.html","w5","width=1300,height=900,top=50,left=350")
+	
+	book1.document.close()
+}
+
+    </script>
+	<script>
+$(document).ready(function(){
+		
+function resizeBoxes() {
+		
+	var browserWidth = 1920;
+	var browserHeight = 930;
+		
+	$('#main').css({
+		width: browserWidth*6
+	});
+		
+		
+	$('.box').css({
+		width: browserWidth,
+		height: browserHeight,
+	});
+		
+}
+		
+resizeBoxes();
+		
+$(window).resize(function() {
+	resizeBoxes();
+});
+
+
+$('nav ul li a').click(function(){
+	return false;
+});
+
+function goTo(horizontal,vertical) {
+
+	var browserWidth = 1920;
+	var browserHeight = 930;
+    $('#main').animate({
+		marginRight: '-'+browserWidth*horizontal,
+		
+	}, 1000);
+	
+
+	
+
+		
+		
+}
+
+
+$('#link1 a').click(function(){
+	goTo(0,0);
+	
+});
+
+
+$('#link2 a').click(function(){
+	goTo(1,0);
+});
+
+$('#link3 a').click(function(){
+	goTo(2,0);
+});
+
+$('#link4 a').click(function(){
+	goTo(3,0);
+});
+
+$('#link5 a').click(function(){
+	goTo(4,0);
+});
+
+$('#link6 a').click(function(){
+	goTo(5,0);
+});
+
+
+		
+});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+
+
+
+<link rel="stylesheet" href="style.css">
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
+</head>
+
+<body dir="rtl" onLoad="MM_preloadImages('../Pro1 - Copy - Copy/BG/page3/1200/2.gif','../Pro1 - Copy - Copy/BG/page3/1800/2.gif','../Pro1 - Copy - Copy/BG/page3/1900/2.gif','../Pro1 - Copy - Copy/BG/page3/1945/2.gif','../Pro1 - Copy - Copy/BG/page3/1950/2.gif','../Pro1 - Copy - Copy/BG/page3/1969/2.gif','../Pro1 - Copy - Copy/BG/page3/1970/2.gif','BG/page2/mecha1a.png','BG/page2/boy1a.png','BG/page2/girl1a.png','BG/page2/syber1a.png','BG/page1/1.1.png','BG/page3/1800/n2.png')">
+
+<!------facebook------->
+
+
+<div id="fb-root">
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</div>
+
+<!------facebook END------->
+<div id="main">
+
+<!-------------------1 page------------------>
+  <section id="box1">
+  <div class="logo"></div>
+    <ul>
+   
+  <li id="link1"><a href="#" style="font-size:30px; color:#900">דף בית</a></li>   
+<li id="link2"><a href="#">סגנונות</a></li>
+<li id="link3"><a href="#">היסטוריה</a></li>
+<li id="link4"><a href="#">ספרייה</a></li>
+<li id="link5"><a href="#">מעריצי</a></li>
+<li id="link6"><a href="#">פורום</a></li>
+
+
+</ul>
+<div class="links"></div>
+
+<!------------links END-------------->
+<div class="block_1">
+<div class="main_text">
+
+  <span id="red_text">מאנגה</span>  היא אמנות הקומיקס היפנית. המאנגה התפתחה במקביל לקומיקס המערבי, אך שונה ממנו הן במאפיינים גראפיים, עלילתיים ומבניים והן בתרבות הסובבת את התעשייה.
+  <br>
+"מאנגה" הוא ביטוי יפני  שמשמעותו "רצועת קומיקס "רצועת קומיקס". המשמעות המילולית של הביטוי "תמונה מגוחכת". המאנגה מורכבת  משתי מלים: "גא"  - "תמונה" או "תגליף", ו"מאן"  - "מגוחך". <br>
+את השם "מאנגה" טבע הגלף קצושיקה הוקוסאי, בהעניקו שם זה לסדרת קריקטורות פופולרית שלו. צייר מאנגה קרוי "מאנגאקה" בשפה היפנית המילה "מאנגה" מציינת קומיקס לכל דבר, העולם מחוץ ליפן אימץ את המילה ככינוי לקומיקס היפני בלבד
+  .</div>
+
+ <div class="main_video">
+   
+ 
+
+  <div class="video"> 
+    <h5><a class="zoombox"  href= "https:///www.youtube-nocookie.com/embed/Ns1HIFiEQSc" frameborder="0" allowfullscreen  
+    onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('l2','','BG/1/vid2.gif',1)"><img src="BG/1/vid1.gif" alt="PBO ColRegs made simple No 1 - Sail meets Sail, Port vs Sta" width="642" height="415" id="l2"></a></h5> 
+    
+   </div>
+ </div>
+ <!----rollOver----->
+ 
+ <!----rollOver END----->
+ <script type="text/javascript"   src="index_videolb/zoombox.js" ></script><!-------------------видео с первой страницы------------>
+
+
+ <script type="text/javascript"   src="index_videolb/zoombox.js" ></script> 
+<script type="text/javascript">
+  $(function() {
+    $('a.zoombox').zoombox();
+  });
+  
+  
+  
+  $('a.zoombox').zoombox({
+   theme       : 'zoombox',        //available themes: 
+                                   //zoombox,lightbox, prettyphoto, 
+                                   //darkprettyphoto, simple
+   opacity     : 0.0,              // Black overlay opacity
+   duration    : 800,              // Animation duration
+   animation   : true,             // Do we have to animate the box ?
+   width       : 1240,              // Default width
+   height      : 700,              // Default height
+   gallery     : false,             // Allow gallery thumb view
+   
+ });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    $('a.zoombox').zoombox();
+  });
+  
+  
+  
+  $('a.zoombox').zoombox({
+   theme       : 'zoombox',        //available themes: 
+                                   //zoombox,lightbox, prettyphoto, 
+                                   //darkprettyphoto, simple
+   opacity     : 0.0,              // Black overlay opacity
+   duration    : 800,              // Animation duration
+   animation   : true,             // Do we have to animate the box ?
+   width       : 1240,              // Default width
+   height      : 700,              // Default height
+   gallery     : false,             // Allow gallery thumb view
+   
+ });
+</script>
+</div>
+<div class="asuka_1" id="d5"></div>
+
+
+<div class="main_asuka"><img src="BG/1/asuka1.gif" onmouseover="v9()" onmouseout="v10()"></div>
+  
+
+  </section>
+ 
+
+
+<!--------------------END 1Page------------------>
+
+
+
+<!-------------------2 page------------------>
+  <section id="box2">
+   <div class="logo"></div>
+    <ul>
+  <li id="link1"><a href="#">דף בית</a></li>
+<li id="link2"><a href="#"style="font-size:30px; color:#900">סגנונות</a></li>
+<li id="link3"><a href="#">היסטוריה</a></li>
+<li id="link4"><a href="#">ספרייה</a></li>
+<li id="link5"><a href="#">מעריצי </a></li>
+<li id="link6"><a href="#">פורום</a></li>
+</ul>
+<div class="links"></div>
+<!------------links END-------------->
+<div class="text_manga">
+<div id="d1">
+
+
+</div>
+<div id="d2">
+
+
+</div>
+<div id="d3">
+
+
+</div>
+<div id="d4">
+
+
+</div>
+</div>
+
+<div class="vid1"  onclick="a()"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('z1','','BG/2/mecha1a.png',1)"><img src="BG/2/mecha1.png" width="288" height="496" id="z1" onmouseover="v1()" onmouseout="v2()"></a>
+  
+  
+</div>
+
+<div class="vid2"  onclick="b()">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('z2','','BG/2/boy1a.png',1)"><img src="BG/2/boy1.png" width="334" height="527" id="z2" onmouseover="v3()" onmouseout="v4()"></a> </div>
+
+<div class="vid3" onclick="c()"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('z3','','BG/2/girl1a.png',1)"><img src="BG/2/girl.png" width="333" height="474" id="z3" onmouseover="v5()" onmouseout="v6()"></a>
+
+</div>
+
+<div class="vid4" onclick="d()">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('z4','','BG/2/syber1a.png',1)"><img src="BG/2/cyber.png" width="301" height="462" id="z4" onmouseover="v7()" onmouseout="v8()"></a> </div>
+
+  </section>
+
+<!--------------------END 2Page------------------>
+  <section id="box3">
+   <div class="logo"></div>
+    <ul>
+  <li id="link1"><a href="#">דף בית</a></li>
+<li id="link2"><a href="#">סגנונות</a></li>
+<li id="link3"><a href="#"style="font-size:30px; color:#900">היסטוריה</a></li>
+<li id="link4"><a href="#">ספרייה</a></li>
+<li id="link5"><a href="#">מעריצי</a></li>
+<li id="link6"><a href="#">פורום</a></li>
+</ul>
+<div class="links"></div>
+
+<!------------links END-------------->
+<div class="data">
+
+  
+  <div id="TabbedPanels1" class="TabbedPanels">
+  
+    <ul class="TabbedPanelsTabGroup" >
+      <li class="TabbedPanelsTab" tabindex="0">1970</li>
+      <li class="TabbedPanelsTab" tabindex="0">1969</li>
+<li class="TabbedPanelsTab" tabindex="0">1950</li>
+<li class="TabbedPanelsTab" tabindex="0">1945</li>
+<li class="TabbedPanelsTab" tabindex="0">1900</li>
+<li class="TabbedPanelsTab" tabindex="0">1800</li>
+      <li class="TabbedPanelsTab" tabindex="0">1200</li>
+</ul>
+    <div class="TabbedPanelsContentGroup">
+      <div class="TabbedPanelsContent">
+        <div class="main_border">
+          <div class="border_pic">
+            <script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	        </script>
+            <script type="text/javascript" src="fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+            <script type="text/javascript" src="fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+            <link rel="stylesheet" type="text/css" href="fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+            <a rel="example_group7" href="BG/page3/1970/img/1.jpg"title=""><img alt="" src="BG/page3/1970/1970.png" /></a> <a rel="example_group7" href="BG/page3/1970/img/2.jpg"title=""></a> <a rel="example_group7" href="BG/page3/1970/img/3.jpg"title=""></a> <a rel="example_group7" href="BG/page3/1970/img/4.jpg"title=""></a> <a rel="example_group7" href="BG/page3/1970/img/5.jpg"title=""></a> <a rel="example_group7" href="BG/page3/1970/img/6.jpg"title=""></a>
+            <script type="text/javascript">
+		$(document).ready(function() {
+		
+					$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			
+	$("a[rel=example_group1]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		
+
+			$("a[rel=example_group2]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+			
+			$("a[rel=example_group3]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+			$("a[rel=example_group4]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+			
+			$("a[rel=example_group6]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			$("a[rel=example_group7]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+		
+		$("a[rel=example_group8]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		
+	$("a[rel=example_group9]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+		<!-------------------------------------------->
+		
+		
+	
+			
+			
+			$("a[rel=example_group10]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+			
+			
+			
+			$("a[rel=example_group11]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+			
+			
+			$("a[rel=example_group12]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			
+			$("a[rel=example_group13]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group14]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group15]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group16]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group17]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group18]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group19]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group20]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group21]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group22]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group23]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+			$("a[rel=example_group24]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group25]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group26]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group27]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group28]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group29]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group30]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group31]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group32]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group33]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group34]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group35]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group36]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group37]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group38]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group39]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			$("a[rel=example_group40]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over"> ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});	
+			
+			
+		});
+
+	        </script>
+          </div>
+          <div class="border_text"> מאז שנות ה70 מנגה הפכה הטרוגנית. מדע בדיוני פנטזיה ורומני הומואים שונות מהזרם המרכזי של קומדיות רומנטיות מורכבות יותר מהטרוסקסואלים וכיוון שלא היה שום איסור וצנזורה כתבי המאנגה לא ריסנו את עצמם וכתבו על כל נושא שעולה על דעתם. בראשית שנות ה90 הם היו מיועדים בעיקר לעקרות בית אבל האישה הצעירה לא רכשה את מה שניקרא " קומיקס חדש עבור נשים" הן מעדיפות לקרוא מנגה מאז התיכון. לבסוף, מנגה לנשים מבוגרות בנות 90 היה מחולק לאומנויות כגון להרגיש צעיר, גרידא פורנוגרפי חדש. כיון אמריקאים קוראים מנגה כחלק מהיום יום שלהם ברכבות וכל מקום אחר.. </div>
+          <div class="center_1970">
+            <div class="d1970-1"><a rel="example_group9" href="BG/page3/1970/img/6.jpg"title=""><img alt="" src="BG/page3/1970/b/1.png" /></a></div>
+            <div class="d1970-2"> <a rel="example_group10" href="BG/page3/1970/img/5.jpg"title=""><img alt="" src="BG/page3/1970/b/2.png" /></a></div>
+            <div class="d1970-3"> <a rel="example_group11" href="BG/page3/1970/img/4.jpg"title=""><img alt="" src="BG/page3/1970/b/3.png" /></a></div>
+            <div class="d1970-4"> <a rel="example_group12" href="BG/page3/1970/img/3.jpg"title=""><img alt="" src="BG/page3/1970/b/4.png" /></a></div>
+            <div class="d1970-5"> <a rel="example_group13" href="BG/page3/1970/img/2.jpg"title=""><img alt="" src="BG/page3/1970/b/5.png" /></a></div>
+            <div class="d1970-6"> <a rel="example_group14" href="BG/page3/1970/img/1.jpg"title=""><img alt="" src="BG/page3/1970/b/6.png" /></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="TabbedPanelsContent">
+        <div class="main_border">
+          <div class="border_pic"> <a rel="example_group6" href="BG/page3/1969/img/1.png" title=""><img alt="" src="BG/page3/1969/b_1969.png" /></a> <a rel="example_group6" href="BG/page3/1969/img/2.png"title=""></a> <a rel="example_group6" href="BG/page3/1969/img/3.png"title=""></a> <a rel="example_group6" href="BG/page3/1969/img/4.png"title=""></a> <a rel="example_group6" href="BG/page3/1969/img/5.png"title=""></a> <a rel="example_group6" href="BG/page3/1969/img/6.png"title=""></a> <a rel="example_group6" href="BG/page3/1969/img/7.png"title=""></a></div>
+          <div class="border_text"> בשנת 1954 כאשר רק החלו לשדר, היו 866 מכשירי טלוויזיה בכל יפן. כבר בשנת 1958 הפך המספר ל2,000,000 טלוויזיות. הטלוויזיה תרמה לתקומה כלכלית חדה ביפן. כמו כן החלו לפתח אמצעי תקשורת אחר. בשנת 1956 הוקם מגזינים שבועיים. בשנת 1959 השיקו שבועוני ילדים ראשונים שכללו לא פחות מ40% מנגה ששימש מתן חומרים חינוכיים לילדים והורים. המחזור היה קטן ב 200,000 עותקים אך עם זאת שמו לב שהביקוש הולך וגדל באופן יחסי למספר המאנגה שהתפרסמה. למורת רוחם של הורים ומורים אלמנטים חינוכיים נעלמו לחלוטין. </div>
+          <div class="center_1969">
+            <div class="d1969-4"><a rel="example_group15" href="BG/page3/1969/img/4.png" title=""><img alt="" src="BG/page3/1969/b/4.png" /></a></div>
+            <div class="d1969-1"> <a rel="example_group16" href="BG/page3/1969/img/5.png" title=""><img alt="" src="BG/page3/1969/b/1.png" /></a></div>
+            <div class="d1969-6"> <a rel="example_group17" href="BG/page3/1969/img/3.png" title=""><img alt="" src="BG/page3/1969/b/6.png" /></a></div>
+            <div class="d1969-5"> <a rel="example_group18" href="BG/page3/1969/img/7.png" title=""><img alt="" src="BG/page3/1969/b/5.png" /></a></div>
+            <div class="d1969-2"><a rel="example_group19" href="BG/page3/1969/img/6.png" title=""><img alt="" src="BG/page3/1969/b/2.png" /></a></div>
+            <div class="d1969-7"><a rel="example_group20" href="BG/page3/1969/img/2.png" title=""><img alt="" src="BG/page3/1969/b/7.png" /></a></div>
+            <div class="d1969-3"><a rel="example_group21" href="BG/page3/1969/img/1.png" title=""><img alt="" src="BG/page3/1969/b/3.png" /></a></div>
+          </div>
+        </div>
+      </div>
+<div class="TabbedPanelsContent">
+  <div class="main_border">
+          <div class="border_pic"> <a rel="example_group8" href="BG/page3/1950/1.png" title=""><img alt="" src="BG/page3/1950/1950.png" /></a><a rel="example_group8" href="BG/page3/1950/2.png" title=""></a><a rel="example_group8" href="BG/page3/1950/3.png" title=""></a></div>
+          <div class="border_text"> למרבה הפלא קן ברור המפריד בין הדור לפני המנגה והדור לאחר פריחת המנגה הוא מי שנולד לפני 1950 הפסיק לקרוא מנגה ברגע שהלך לבית הספר ואלה שאחריו לא. למה? כיוון שלאחר 1950 זה היה הרגע שהפכה מנגה טזוקה לבידור לילדים . תופעה מורכבת שהיה קשה להיפרד ממנה. </div>
+          <div class="center_1950">
+            <div class="d1950-1"> <a rel="example_group22" href="BG/page3/1950/1.png" title=""><img alt="" src="BG/page3/1950/b/1.png" /></a></div>
+            <div class="d1950-2"> <a rel="example_group23" href="BG/page3/1950/3.png" title=""><img alt="" src="BG/page3/1950/b/2.png" /></a></div>
+            <div class="d1950-3"> <a rel="example_group24" href="BG/page3/1950/2.png" title=""><img alt="" src="BG/page3/1950/b/3.png" /></a></div>
+          </div>
+        </div>
+    </div>
+<div class="TabbedPanelsContent">
+  <div class="main_border">
+          <div class="border_pic"> <a rel="example_group4" href="BG/page3/1945/1.png"title=""> <img alt="" src="BG/page3/1945/1945.png" /></a> <a rel="example_group4" href="BG/page3/1945/5.png"title=""></a> <a rel="example_group4" href="BG/page3/1945/2.png"title=""></a> <a rel="example_group4" href="BG/page3/1945/3.png"title=""></a> <a rel="example_group4" href="BG/page3/1945/4.png"title=""></a> <a rel="example_group4" href="BG/page3/1945/6.png"title=""></a></div>
+          <div class="border_text"> המנגה המודרנית התחילה לזרוח בזמן הכיבוש 1945-1952 והתפתחה לאחר הכיבוש 1952-1960, כאשר יפן מיליטרסטי ולאומנית התחילה לחדש את התשתיות והפוליטיות והכלכליות שלה. המדיניות של צנזורה שהוטלה על ארה"ב לאחר המלחמה אסרה ליצירת יצירות אומנות המפארת את המלחמה ואת המיליטריזם היפני, זה כלל גם מנגה. כמו כן, דבר הגרם להעצמה של המנגה ביפן הייתה החוקה היפנית האסרה על כל צורה של צנזורה. כתוצאה מכך בתקופה זו החלה להגביר את היצירתיות. לאחר מכן יוצרו שני סדרות מאנגה שהיו להשפעה רבה ומשמעותית על ההיסטוריה העתידית של מאנגה. המאנגה הראשונה נקראה אסטרו בוי והשנייה סאזה סאן. שנכתב על ידי מטיקו חסגאווה </div>
+          <div class="center_1945">
+            <div class="d1945-1"> <a rel="example_group25" href="BG/page3/1945/5.png" title=""><img alt="" src="BG/page3/1945/b/1.png" /></a></div>
+            <div class="d1945-2"> <a rel="example_group26" href="BG/page3/1945/2.png" title=""><img alt="" src="BG/page3/1945/b/2.png" /></a></div>
+            <div class="d1945-3"> <a rel="example_group27" href="BG/page3/1945/4.png" title=""><img alt="" src="BG/page3/1945/b/3.png" /></a></div>
+            <div class="d1945-4"> <a rel="example_group28" href="BG/page3/1945/1.png" title=""><img alt="" src="BG/page3/1945/b/4.png" /></a></div>
+            <div class="d1945-5"> <a rel="example_group29" href="BG/page3/1945/6.png" title=""><img alt="" src="BG/page3/1945/b/5.png" /></a></div>
+            <div class="d1945-6"> <a rel="example_group30" href="BG/page3/1945/3.png" title=""><img alt="" src="BG/page3/1945/b/6.png" /></a></div>
+          </div>
+        </div>
+    </div>
+<div class="TabbedPanelsContent">
+  <div class="main_border">
+          <div class="border_pic"> <a rel="example_group3" href="BG/page3/1900/1.png" title=""> <img alt="" src="BG/page3/1900/1900.png" /></a> <a rel="example_group3" href="BG/page3/1900/2.png" title=""></a> <a rel="example_group3" href="BG/page3/1900/3.png"title=""></a></div>
+          <div class="border_text"> בשל העובדה כי בסוף המאה ה19 פלשה ליפן תרבויות וטכנולוגיות מערביות, מנגה שילבה פרסומים סאטיריים יפניים ומערביים כאחד. במחצית הראשונה של המאה ה20 קומיקס יפני ואמריקאי היה דומה בסגנון ובפופולריות שלו. עד שהיפנים החלו לפרוח וארה"ב לנבול. </div>
+          <div class="center_1900">
+            <div class="d1900-1"> <a rel="example_group31" href="BG/page3/1900/2.png" title=""><img alt="" src="BG/page3/1900/b/1.png" /></a></div>
+            <div class="d1900-2"> <a rel="example_group32" href="BG/page3/1900/1.png" title=""><img alt="" src="BG/page3/1900/b/2.png" /></a></div>
+            <div class="d1900-3"> <a rel="example_group33" href="BG/page3/1900/3.png" title=""><img alt="" src="BG/page3/1900/b/3.png" /></a></div>
+          </div>
+        </div>
+    </div>
+<div class="TabbedPanelsContent">
+  <div class="main_border">
+          <div class="border_pic"> <a rel="example_group1" href="BG/page3/1800/3.png"title=""><img alt="" src="BG/page3/1800/1800.png" /></a> <a rel="example_group1" href="BG/page3/1800/2.png"title=""></a> <a rel="example_group1" href="BG/page3/1800/1.png"title=""></a></div>
+          <div class="border_text"> בסוף המאה ה18 החלו מטעם צרכן התרבות באוכלוסייה העירונית להפיק בידור בצורת מנגה מהמעמד הבינוני לציבור הרחב. הודפס על לוחות עץ או סיפורי גלילה עם קריינות. נמחק הקו המפריד בין תמונות ודיאלוג וזה נהייה  לאחד. המנגה יכלה לייצר דרמה פנטזיה קומדיה ואפילו פורנוגרפיה. ב1815 מילה "מנגה" נכתבה לראשונה בידי צייר העונה לשם חוקוסיים. הוא השתמש בשני הירוגלפים מוזנחים-"מאן" מוזנח "גה" תמונה בשביל לתאר את התמונות העליזות שלו. </div>
+          <div class="center_1800">
+            <div class="d1800-1"> <a rel="example_group34" href="BG/page3/1800/1.png" title=""><img alt="" src="BG/page3/1800/b/1.png" /></a></div>
+            <div class="d1800-2"> <a rel="example_group35" href="BG/page3/1800/2.png" title=""><img alt="" src="BG/page3/1800/b/2.png" /></a></div>
+            <div class="d1800-3"> <a rel="example_group36" href="BG/page3/1800/3.png" title=""><img alt="" src="BG/page3/1800/b/3.png" /></a></div>
+          </div>
+        </div>
+    </div>
+      <div class="TabbedPanelsContent">
+        <div class="main_border">
+          <!------------1200------------->
+          <div class="border_pic"> <a rel="example_group" href="BG/page3/1200/3.png" title=""><img alt="" src="BG/page3/1200/1200.png" /></a> <a rel="example_group" href="BG/page3/1200/2.png"title=""></a> <a rel="example_group" href="BG/page3/1200/1.png"title=""></a> <a rel="example_group" href="BG/page3/1200/4.png"title=""></a></div>
+          <div class="border_text"> המדענים סבורים שהמאנגה הראשונה מייצגת מימי הביניים את השילוב בין טקסט לתמונה. הכוונה הייתה תמונות עליזות מהחיים של החיות שעשה אותם כומר בודהיסטי במאה ה12, שמו היה קקואוי. אך לא ניתן להוכיח שהוא זה שעשה אותם. (טובה סודזה 1053-1040). אלה היו 4 גלילים שהיו מיוצרים ברצף של ארבע תמונות עם טוב ועם חותמת. בתמונות היו חיות שמייצגות כומרים שהלכו נגד חוקי הבודהיזם. בגלילים היו אך ורק בשביל המעמד הגבוהה אבל שאר הציורים היו לכולם. בגליל הכי גדול 11 מטר באורך ו30 סנטימטר ברוחב. עכשיו הם נמצאים במנזר הנחשב שריד קדוש איפה שהיה גר הקקואיו. </div>
+          <div class="center_1200">
+            <div class="d1200-1"> <a rel="example_group37" href="BG/page3/1200/1.png" title=""><img alt="" src="BG/page3/1200/b/1.png" /></a></div>
+            <div class="d1200-2"> <a rel="example_group38" href="BG/page3/1200/2.png" title=""><img alt="" src="BG/page3/1200/b/2.png" /></a></div>
+            <div class="d1200-3"> <a rel="example_group39" href="BG/page3/1200/3.png" title=""><img alt="" src="BG/page3/1200/b/3.png" /></a></div>
+            <div class="d1200-4"> <a rel="example_group40" href="BG/page3/1200/4.png" title=""><img alt="" src="BG/page3/1200/b/4.png" /></a></div>
+          </div>
+        </div>
+      </div>
+<!-------1200 END---->  
+      <!-------1800---->          
+      <!-------1800 END---->
+      <!-------1900---->          
+      <!-------1900 END---->          
+<!-------1945---->
+<!-------1945 END---->
+<!-------1950---->
+<!-------1950 END---->
+
+      <!-------1970---->
+      <!-------1970 END----> 
+<!-------1969---->
+<!-------1969 END---->
+    </div>
+  </div>
+</div>
+</section>
+
+<!--------------------END 3Page------------------>
+<!------------4 Page----------------->
+  <section id="box4">
+   <div class="logo"></div>
+    <ul>
+  <li id="link1"><a href="#" >דף בית</a></li>
+<li id="link2"><a href="#">סגנונות</a></li>
+<li id="link3"><a href="#">היסטוריה</a></li>
+<li id="link4"><a href="#"style="font-size:30px; color:#900">ספרייה</a></li>
+<li id="link5"><a href="#">מעריצי</a></li>
+<li id="link6"><a href="#">פורום</a></li>
+</ul>
+<div class="links"></div>
+
+<!------------links END-------------->
+<div class="border_big">
+  <div class="ramka_1">
+    <div class="picture" onclick="a1()" ><img src="BG/page4/imgs/Hoshi-noKoe.png"> </div>
+    <div class="text">
+      <p class="nazvanie">Voices of a Distant Star
+    </p>
+      <p> <span class="text_rac">הפעולה מתרחשת ב2046, סימנה את פתיחת החורבנות של תרבויות זרות על מאדים. האנושות ביצעה צעד ענק ומשמעותי בטכנולוגיה ומתכננת לשלוח שנה הבאה למשימה לחלל את נוברו- תלמיד תיכון. אבל אם בסתיו הבא נוברו ימשיך את לימודיו בתיכון מיקקו תיבחר להצטרף למשלחת של הגון. יכלו לתקשר בינהם רק בהודעות</span> SMS. </p>
+    </div>
+ 
+  </div>
+  
+  
+  
+  <div class="ramka_1">
+    <div class="picture"><img src="BG/page4/imgs/naruto.png"> </div>
+    <div class="text">
+      <p class="nazvanie">Naruto
+    </p>
+      <span class="text_rac"> ארוטו אוזומאקי הדמות הראשית והגיבור הראשי של הסדרה: נארוטו. הוא הנינג'ה של רמת גנין כפר עלה, וחבר בצוות קאקאשי. צאצאו של הורה שבט אוזומאקי נארוטו הוא קאראמה השלישית והנוכחית - לתשעה ועכשיו הוא הגיבור של הכפר שלו, ראוי לרשת את התואר של אביו, שהיה ההוקאגה, בניגוד לכפר המקורי שלו היה מבוקש בכפר וראוי להערכה. </span></div>
+ 
+  </div>
+  
+  
+  <div class="ramka_1">
+    <div class="picture"><img src="BG/page4/imgs/Kurosagi.png"> </div>
+    <div class="text">
+      <p><span class="nazvanie">Kurosagi</span> </p>
+      <p class="text_rac">לקורוסקי כילד היה מקרה טרגי במשפחה, מישהו רימה את אביו וגרם לו לרדת מהפסים עד שהרג את כל המשפחה והתאבד. לקורוסקי היה מזל שלא היה בבית באותו רגע, אך שארית חיין השתנתה ללא ספק. כדי להקל על הכאב העצום החליט לחפש אנשים שגונבים וגוזלים מאנשים אחאים ולהשאירם ללא דבר, ולאחר מכן לשים אותם בכלא. </p>
+    </div>
+ 
+  </div>
+  
+  
+  <div class="ramka_1">
+  
+  <div class="picture"><img src="BG/page4/imgs/Dengeki-Daisy.png"> </div>
+    <div class="text">
+      <p class="nazvanie">Dengeki Daisy   </p>
+      <p class="text_rac"> החיים של תרו לא מתוקים.. אין כסף. מועצת התלמידים כל הזמן מטרידה אותה, וגם שברו חלון! אנחנו נצטרך לעזור לשרת קורוסקי. אבל תרו לא וויתרה, היא תמיד עליזה, יש לה חינניות. לפני מות אחיה של תרו, השאיר את הטלפון שלה עם נקודת מגע אחת-דייזי. אכן דייזי תמיד היה עוזר ומגן והבטיח להחליף אותו.אבל מי הוא? האם הוא קשור לשתר בבית הספר קורוסקי? </p>
+    </div>
+    
+    </div>
+    
+    
+    
+  <div class="ramka_2">
+  
+  <div class="picture" ><img src="BG/page4/imgs/One-Piece.png"> </div>
+    <div class="text">
+      <p class="nazvanie">One Piece</p>
+      <p class="text_rac">עלילת הסדרה מתרחשת בעולם דמיוני, המורכב רובו מאיים. 20 שנים לפני המועד שבו מתרחשת עלילת הסדרה, הוצא להורג הפיראט האגדי גול די. רוג'ר, אשר נחשב לפיראט הגדול ביותר בכל הזמנים ואשר זכה לתואר "מלך הפיראטים". רוג'ר ציין על ערש דווי כי הוא הותיר את האוצרות שצבר במהלך כל חייו במקום סודי. בעקבות כך, מתחיל עידן שודדי הים הגדול אשר במסגרתו אלפי פיראטים שונים, המחולקים למאות צוותים. </p>
+    </div>
+    
+  
+  </div>
+  <div class="ramka_1">
+  
+  <div class="picture"><img src="BG/page4/imgs/shaman.gif"> </div>
+    <div class="text">
+      <p class="nazvanie">Shaman King</p>
+      <p class="text_rac"> שאמן הוא סוג של כוהן רוחות אשר מסוגל לתקשר עם עולם הרוחות. בסדרה, כוהני הרוחות יוצרים קשר עם רוחות הרפאים ועל מנת להשיג את מטרותיהם. השאיפה הגדול ביותר של כוהן רוחות הוא להפוך למלך של כוהני הרוחות (אשר מכונה בסדרה "שאמן קינג"), אשר מסוגל לתקשר ישירות עם הרוח הגדולה (הרוח אליה לבסוף כל הנשמות חוזרות) כדי להיות המושיע של העולם. </p>
+    </div>
+    
+    
+  </div>
+  <div class="ramka_1">
+  
+  <div class="picture"><img src="BG/page4/imgs/death-note.gif"></div>
+    <div class="text">
+      <p class="nazvanie">Death Note</p>
+      <p class="text_rac">מחברת המוות  היא מאנגה וסידרת אנימה יפנית מסוגת המותחן הפסיכולוגי, שנכתבה על ידי צוגומי אוֹ‏בה ואויירה על ידי טקֶשי אוֹ‏בָ‏טַ‏ה.
+במאנגה, ראייטו יאגאמי הוא תלמיד תיכון המוצא מחברת שנקראת "מחברת המוות". המחברת מאפשרת לבעליה להרוג באמצעות כתיבת שם הקורבן במחברת. ראייטו מחליט להשתמש במחברת על מנת להרוג פושעים, הוא מתאר זאת כניקוי העולם מרוע ואף משווה את עצמו לאל.</div>
+  </div>
+  
+  
+  
+  <div class="ramka_1">
+  <div class="picture" ><img src="BG/page4/imgs/totoro.gif"></div>
+    <div class="text">
+      <p class="nazvanie">Totoro</p>
+      <p class="text_rac">בשנות ה-50 פרופסור באוניברסיטת טוקיו ושתי בנותיו, מיי וסצוקי, עוברים לגור בבית ישן בכפר כדי להיות קרובים יותר לבית החולים בו מטופלת האם.
+באחד הימים משחקת מיי, האחות הקטנה, בקרבת הבית. היא נתקלת ביצורים, האחד לבן והשני כחול, שאוספים בלוטים. מיי מחליטה לעקוב אחריהם ומגלה מאורה בה גר יצור גדול ופרוותי, לו החליטה לקרוא בשם טוטורו. אביה של מיי מספר לה שטוטורו הוא &quot;השומר של היער&quot;.</p>
+    </div>
+  </div>
+  
+  
+  </div>
+ 
+  
+
+  </section>
+
+
+<!--------------------END 4Page------------------>
+  <section id="box5">
+    <div class="logo"></div>
+    <ul>
+  <li id="link1"><a href="#">דף בית</a></li>
+<li id="link2"><a href="#">סגנונות</a></li>
+<li id="link3"><a href="#">היסטוריה</a></li>
+<li id="link4"><a href="#">ספרייה</a></li>
+<li id="link5"><a href="#"style="font-size:30px; color:#900">מעריצי</a></li>
+<li id="link6"><a href="#">פורום</a></li>
+
+</ul>
+<div class="links"></div>
+
+<!------------links END-------------->
+<div class="page5_main">
+
+<!------------------girl-------------------->
+  <div class="girl" >
+    <div class="girl_pic"><img src="Pic/11.jpg" width="240" height="320"></div>
+     <div class="text_little">
+       <p class="text_rac_red">שם:<span class="text_black">ורד </span></p>
+       <p class="text_rac_red">ת.לידה:<span class="text_black">26.04.93</span> </p>
+       <p class="text_rac_red">מ. לידה:<span class="text_black">ישראל</span></p>
+       <p class="text_rac_red">מזל:<span class="text_black">שור</span></p>
+       <p class="text_rac_red">מגורים:<span class="text_black">חיפה</span></p>
+       <p class="text_rac_red">התעניינות בתחום:<span class="text_black">מגיל11</span></p>
+       <p class="text_rac_red">סיגנון אהוב:<span class="text_black">יאוי</span></p>
+       <p class="text_rac_red">&nbsp;</p>
+       <p class="text_rac_red">&nbsp;</p>
+       
+     </div>
+      <div class="big_text">
+        <p class="text_rac_big_text">היי אני ורד מחיפה.</p>
+       
+     </div>
+      
+     <div class="girl_video">
+       
+       
+       <a class="zoombox"  href= "https:///www.youtube-nocookie.com/embed/P53C-5lqbsw" frameborder="0" allowfullscreen  
+    onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('l2','','BG/1/vid2.gif',1)"><img src="BG/1/vid1.gif" alt="PBO ColRegs made simple No 1 - Sail meets Sail, Port vs Sta" width="642" height="415" id="l2"></a>
+       
+     </div>
+    
+  
+  </div>
+<!-------------------girl END------------------>
+
+
+
+
+
+
+
+<!--------------------boy--------------------->
+<div class="boy" >
+
+    <div class="boy_pic"><img src="Pic/22.jpg" width="240" height="320"></div>
+     <div class="text_little">
+       <p><span class="text_rac_red">שם:</span><span class="text_black">אלכס</span></p>
+       <p class="text_rac_red"> ת.לידה:         </p>
+       <p><span class="text_rac_red">מ. לידה:</span><span class="text_black">אוקראינה</span></p>
+       <p> <span class="text_rac_red">מזל:</span><span class="text_black">תאומים</span></p>
+       <p> <span class="text_rac_red">מגורים:</span><span class="text_black">חיפה</span></p>
+       <p> <span class="text_rac_red">התעניינות בתחום:</span><span class="text_black">מגיל12</span></p>
+       <p> <span class="text_rac_red">סיגנון אהוב:</span><span class="text_black">מכה</span></p>
+     </div>
+      <div class="big_text">---------------------------</div>
+     <div class="boy_video">
+     
+     
+     <a class="zoombox"  href= "https:////www.youtube-nocookie.com/embed/7_uPqYp8Wbk" frameborder="0" allowfullscreen  
+    onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('l2','','BG/1/vid2.gif',1)"><img src="BG/1/vid1.gif" alt="PBO ColRegs made simple No 1 - Sail meets Sail, Port vs Sta" width="642" height="415" id="l2"></a>
+
+     
+     </div>
+    
+  
+
+
+</div>
+<!------------------boy END-------------------->
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </section>
+
+
+<!--------------------END 6Page------------------>
+
+
+
+<section id="box6">
+    <div class="logo"></div>
+    <ul>
+  <li id="link1"><a href="#">דף בית</a></li>
+<li id="link2"><a href="#">סגנונות</a></li>
+<li id="link3"><a href="#">היסטוריה</a></li>
+<li id="link4"><a href="#">ספרייה</a></li>
+<li id="link5"><a href="#">מעריצי</a></li>
+<li id="link6"><a href="#"style="font-size:30px; color:#900">פורום</a></li>
+
+</ul>
+<div class="links"></div>
+
+<!------------links END-------------->
+
+
+<div class="bg_6">
+  <div class="facebook"><div class="fb-comments" data-href="http://www.valera.media-tech.org" data-width="800px" data-numposts="15" data-colorscheme="light"></div>
+  
+  
+  
+  </div>
+
+</section>
+
+
+<!--------------------END 6Page------------------>
+</div>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1", {defaultTab:6});
+</script>
+
+
+
+</body>
+</html>

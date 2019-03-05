@@ -1,0 +1,74 @@
+@charset "utf-8";
+.main {
+	height: 800px;
+	width: 1350px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	background-image: url(mecha2.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	direction: rtl;
+}
+.video {
+	float: right;
+	height: 340px;
+	width: 590px;
+	margin-right: 10px;
+	margin-top: 100px;
+}
+.text {
+	width: 590px;
+	margin-top: 65px;
+	margin-right: 10px;
+	float: right;
+	clear: right;
+	font-family: fbpigment;
+	font-size: 18px;
+	line-height: 23px;
+	padding-top: 8px;
+	padding-right: 18px;
+	padding-bottom: 17px;
+	padding-left: 10px;
+}
+.newtext {
+	width: 590px;
+	margin-top: 65px;
+	margin-right: 50px;
+	float: right;
+	clear: right;
+	font-family: fbpigment;
+	font-size: 17px;
+	line-height: 20px;
+	padding-top: 8px;
+	padding-right: 18px;
+	padding-bottom: 17px;
+	padding-left: 10px;
+}
+
+#text_black {
+	direction: rtl;
+	font-family: fbpigment;
+	font-size: 18px;
+}
+
+#text_main {
+	font-size: 24px;
+	font-family: fbpigment;
+	direction: rtl;
+	color: #900;
+	line-height: 40px;
+	font-weight: bolder;
+}
+.english1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+
+#text_red {
+	font-size: 24px;
+	font-family: fbpigment;
+	direction: rtl;
+	color: #900;
+	line-height: 40px;
+	font-weight: bold;
+}

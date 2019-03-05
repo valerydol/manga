@@ -1,0 +1,49 @@
+@charset "utf-8";
+.cyberpunk {
+	font-family: fbpigment;
+	direction: rtl;
+	height: 800px;
+	width: 1350px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(cyber.gif);
+	/* [disabled]background-color: #0F3; */
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.video {
+	float: right;
+	height: 367px;
+	width: 623px;
+	margin-right: 55px;
+	margin-top: 116px;
+	/* [disabled]background-color: #06C; */
+}
+
+.text {
+	float: right;
+	margin-top: 30px;
+	margin-right: 540px;
+	clear: right;
+	background-color: #FFF;
+	font-size: 18px;
+	line-height: 23px;
+	width: 580px;
+	padding-top: 8px;
+	padding-right: 18px;
+	padding-bottom: 17px;
+	padding-left: 10px;
+	border: 1px solid #000;
+}
+#text_main {
+	font-family: fbpigment;
+	font-size: 24px;
+	color: #900;
+	font-weight: bold;
+	line-height: 40px;
+}
+.cyberpunk {
+}
